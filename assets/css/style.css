@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "raleway";
+  color: #fff;
+}
+.cabecera {
+  height: 73px;
+  background-color: black;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+#titulo {
+  font-weight: 400;
+  font-size: 50px;
+}
+#imagen_cuerpo {
+  width: 100vw;
+  margin-bottom: -5px;
+}
+.parte_1 {
+  height: 348px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#imagen_parte_1 {
+  width: 399px;
+  margin: 45px 150px 66px;
+}
+#texto_parte_1 {
+  margin-top: 76px;
+  margin-left: 150px;
+  margin-bottom: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 100;
+  overflow: auto;
+}
+.caracteristicas {
+  width: 100vw;
+  height: 348px;
+  background-color: #1e1a13;
+  display: flex;
+  flex-direction: column;
+}
+.iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-left: 110px;
+  margin-bottom: 74px;
+  font-size: 25px;
+  font-weight: 200;
+}
+.titulo_parte_2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.galeria {
+  max-width: 100vw;
+  min-height: 348px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -31px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.fotos_galeria {
+  width: 316px;
+  height: 202px;
+  padding: 10px;
+}
+.footer {
+  width: 100vw;
+  min-height: 102px;
+  background-color: #1e1a13;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+}
